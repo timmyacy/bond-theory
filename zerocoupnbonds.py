@@ -23,3 +23,5 @@ if __name__ == '__main__':
     bond = ZeroCouponBonds(1000, 2, 4)
 print("The present value of the bond is",
       bond.calculate_price())
+
+#TODO Add Macaulay Duration and Update README.md
